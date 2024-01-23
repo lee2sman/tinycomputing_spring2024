@@ -10,7 +10,7 @@ show_excerpts: false
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/%E8%83%BD%E5%8B%A2%E4%BC%8A%E5%8B%A2%E9%9B%84_%E6%B8%A6%E3%81%A8%E8%A8%98%E6%86%B6%E5%B1%95_%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%99%E3%83%B3%E3%83%8806_%285334416681%29.jpg" 
+  avatar_url: "https://github.com/lee2sman/tinycomputing_spring2024/blob/main/assets/img/diy-computing.jpg?raw=true"
   about_you: Students create custom projects using inexpensive, bank card–sized computers for art installations and works for the public good. Students will conceptualize, design and implement new computer-based devices and participate in critique of contemporary technology and networked devices. In the process, their knowledge of text-based interfaces, free culture, collaboration, circuit building, and the history of creative computing/hacking is deepened.
   date_format: "%b %d" # date format of posts in home page
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
