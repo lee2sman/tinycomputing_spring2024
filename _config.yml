@@ -4,8 +4,11 @@ email: lee.tusman@purchase.edu
 url: https://leetusman.com/tinycomputing_spring2024/ 
 description: > # this means to ignore newlines until "show_excerpts:"
   Course website for Purchase College NME 4150
-favicon: "./favicon.ico" 
 show_excerpts: false 
+favicon: "./favicon.ico" 
+baseurl: "/tinycomputing_spring2024"
+url: "https://leetusman.com"
+permalink: none
 
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
