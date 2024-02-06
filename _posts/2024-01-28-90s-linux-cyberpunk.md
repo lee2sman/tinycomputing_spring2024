@@ -170,4 +170,4 @@ How to build a [Dream Machine](https://ultraculture.org/blog/2013/11/27/build-dr
 * Add music playing software
 * Be able to ssh into your pi.
 * Change the desktop background. You may want to install a dock. Try installing games, a code editor, and a new terminal.
-* Create your own "startup sound" that will play when the computer turns on. Create a script that will launch and play the sound on startup. You may need to install sound playing software for the command line. How do you make a script run on startup?
+* Create your own "startup sound" that will play when the computer turns on. Create a script that will launch and play the sound on startup. You may need to install sound playing software for the command line. How do you make a script run on startup? 
