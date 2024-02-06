@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Class 3 - Running Your Pi"
+title: "Class 3 - From Input to Output"
 ---
+
+Today: keyboard input, navigating via command line, and connecting to an external monitor via GPIO pins
 
 Schedule:
 
-* running the Pi
+* running the Pi from the CLI
 * alternative shells
-* customizing the desktop
-* in-progress work
+* desktop managers
+* addings an alternative monitor via GPIO pins
 * Group studio work
 
 ### What is the command line?
@@ -47,15 +49,9 @@ Most Bash commands and programs have a built-in manual page. You can access it b
 
 Use this command to remind you what folder you're currently located in. As you move around files or move between directories it's easy to get lost. pwd will remind you exactly where you are.
 
-##### Example
-
-```pwd```
-
 ### List Files, ```ls```
 
 ```ls``` is the list function. It lists all of the files in a directory, including text files, images, audio and sub-folders, among other files. 
-
-##### Examples
 
 ```ls``` just outputs the content of your folder in a mass.
 
@@ -111,11 +107,11 @@ Want to get rid of a file? You could drag it to the trash, or you could use the 
 
 When you need a refresh and want to clear all of your previous commands and output from your field of view, run ```clear```. It doesn't delete your history (see ```history``` below for more info on this), but it does help declutter your screen.
 
-##### Example
+```
+clear
+```
 
-```clear```
-
-### Read a file, ```cat``` and ```less```
+### Read a file 
 
 There are a variety of ways to access and read text in a file on the command line. The simplest is to use ```cat``` which stands for concatenate. You specify the file and it dumps the text onto the command line and exits. If you're trying to read a text file and it's too large to fit in a single screen of the terminal you will probably prefer to use ```less```. ```less``` is a reader program that lets you move back and forth in a text file. You can move forward a screen at a time by hitting the space bar or scroll down or up with the arrow keys. There are a variety of other options that you can read about if you run ```man less```. When you get to the end of the file, press *q* to exit back onto the command line.
 
@@ -165,6 +161,75 @@ bash Aliases
 
 fish Functions
 
+## Tiny monitors via GPIO pins
+
+![Raspberry Pi 4 with GPI pin chart]({{ site.baseurl }}/assets/img/pi-pins.jpg)  
+
+GPIO stands for General Purpose Input Output.
+
+> an uncommitted digital signal pin on an integrated circuit or electronic circuit (e.g. MCUs/MPUs) board which may be used as an input or output, or both, and is controllable by software. --from [Wikipedia](https://en.wikipedia.org/wiki/General-purpose_input/output), the free encyclopedia
+
+
+![GPIO pins]({{ site.baseurl }}/assets/img/gpio.jpg)  
+*Image from [Raspberry Pi tips](https://raspberrytips.com/raspberry-pi-gpio-pins/)*
+
+Things to know about GPIO pins:
+
+* They are by default "unused" but you can define their use via software/code you write
+* You use them to connect with external circuitry. Think of your Pi as the "core" and the GPIO lets you add on additional hardware to unlock (screens, sensors, motors, and other hardware devices)
+* You can read or write to pins, usually sending a "high" or "low signal" (think of this as a binary signal like on or off)
+* Pins can be enabled or disabled
+* A "hat" is a hardware board designed to (mostly) easily connect and sit on top of your Raspberry Pi to connect to the GPIO pins and add additional functionality. A hat is intended to make things easier so you don't have to hand solder and connect wires yourself. Because Raspberry Pi is open source, there are many different manufacturers that make HATs. 
+* You usually write a script that you run from the command line to work with the GPIO pins. Often, this could be in Python (and there is lots of documentation for Python on Pi), but it could be other languages (C, Lua, Scratch, Node.js) as well.
+
+![Pin out numbering]({{ site.baseurl }}/assets/img/pinout.png)  
+Pin out mapping, image from [Raspberry Pi tips](https://raspberrytips.com/raspberry-pi-gpio-pins/)  
+
+Each pin on your Pi may have different functionality. Consult a pin out graphic to look them up. "Hats" are designed to more easily connect to these pins correctly, but they need to be aligned in the correct direction.
+
+**Always connect your Hats or to any pins with the power off!**
+
+### Working with GPIO pins
+
+Let's update our Pi and our software.
+
+```
+sudo apt update
+sudo apt upgrade
+```
+
+Let's install the GPIO library in case it's not already installed.
+
+```
+sudo apt install python3-rpi.gpio
+```
+
+Let's enable the GPIO pins on our Pi
+
+```
+sudo raspi-config
+```
+
+Then go to "Interface Options" and enable "I2C" and SPI" in the sub-menus. These are for specific pins.
+
+Resources:
+
+* [Getting Started with GPIO Pins on Raspberry Pi (Beginners guide)](https://raspberrytips.com/raspberry-pi-gpio-pins/)
+* [Raspberry Pi Pinout](https://pinout.xyz/)
+* [Hundreds of example "hats" to connect to the Pi](https://pinout.xyz/boards/#)
+
+
+
+Adafruit DPI TFT Kippah for Raspberry Pi
+
+[info page](https://learn.adafruit.com/adafruit-dpi-display-kippah-ttl-tft)o
+
+[installation page](https://learn.adafruit.com/adafruit-dpi-display-kippah-ttl-tft/installation)
+
+[support forum](https://forums.adafruit.com/search.php?st=0&sk=t&sd=d&sr=posts&keywords=DPI+kippah&start=15)
+
+For example, [this looked useful](https://forums.adafruit.com/viewtopic.php?p=853379&hilit=DPI+kippah#p853379).
+
 ## Group work session
 
 1. Review your mood boards
@@ -190,4 +255,11 @@ At minimum, the cyberdeck should have:
 * a selected or produced background that fits the concept
 * customized terminal software and prompt
 
+## Homework
 
+* Group image board
+* Group concept description
+* Group costume plan
+* Group sketch (costume(s) + cyberdeck)
+* Group equipment list
+* A working system with custom startup sound, desktop background, terminal shell, and a different desktop environment (if you end up using the default, describe what it is and why you are using it :)
