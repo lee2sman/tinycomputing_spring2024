@@ -243,8 +243,8 @@ Requirements: a final version of the cyberpunk project will be due on Feb 27.
 
 * a cyberdeck, with name, customized OS/desktop, and installed software
 * at least one costumed character
-* a produced image showing your character(s) with the cyberdeck
-* A guide to the cyberdeck's concept
+* produced images showing your character(s) with the cyberdeck
+* A printed user guide to the cyberdeck (more details on the user guide requirements forthcoming)
 
 Consider how you'll build the visual iconography and interface for your cyberdeck, inspired by the cyberpunk aesthetics and scenes we've viewed, or something new that you conceive of. Your cyberdeck should complement your character (and vice versa).
 
