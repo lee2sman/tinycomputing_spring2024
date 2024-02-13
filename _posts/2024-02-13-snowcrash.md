@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Class 3 - High Tech, Low Life"
+title: "Class 4 - High Tech, Low Life"
 ---
 
-Today: 
+Today (snow storm. everyone zooms): 
 
 Schedule:
 
