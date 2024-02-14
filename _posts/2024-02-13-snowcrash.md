@@ -8,7 +8,11 @@ Today (snow storm. everyone zooms):
 Schedule:
 
 * Cyberpunk Documentaries and Discussion
-* Cyberpunk today
+  * Cyberpunk Part 1
+  * Queen of Cyberpunk in Japan
+* Cyberpunk today 
+  * media
+  * discussions
 * Group meetings
 
 ## Queen of Cyberpunk in Japan - Cybermom
