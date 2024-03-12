@@ -19,6 +19,8 @@ title: "Class 7 - Host Your Own Network"
 > PirateBox has an educational purpose and aims to teach about computer programming and computer networks.
 > PirateBox network (AP) should be open, and use open networking standards to allow communication with other users.
 
+[Piratebox website](https://piratebox.cc/)
+
 ![Etherbox]({{ site.baseurl }}/assets/img/etherbox.jpg)  
 *Etherbox image, via Network of Ones Own from [constantvzw.org](https://networksofonesown.constantvzw.org/etherbox/manual.html#etherbox-experiences)*
 
