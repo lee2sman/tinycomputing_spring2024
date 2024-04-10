@@ -6,8 +6,7 @@ title: Class 10 - New Digital Senses
 This week:
 - GPIO
 - Artists and the Pi: New Digital Senses
-
-## Present Pirateboxes
+- Intro to camera project
 
 ## GPIO
 
@@ -104,28 +103,30 @@ by Sarah Petkus. [info](https://hackaday.io/project/158886-she-bon)
 > The Cyborg Foundation is a nonprofit organization created in 2010 by cyborg activists and artists Moon Ribas and Neil Harbisson. The foundation is a platform for the research, creation and promotion of projects related to extending and creating new senses and perceptions by applying technology to the human body.  
 *--[info](https://en.wikipedia.org/wiki/Cyborg_Foundation)*
 
-### Homework
+## Next project: Raspberry Pi camera projects
 
-1. On-going progress on your Pi group project
-2. Final project proposal
-3. Weekly log of work toward final project
- - each participant writes up their activity of the week (ideally, write a log every 20 minutes with your activities during that time)
- - photo documentation (which can include screenshots)
- - a writeup that ends with: what didn't work? what are your next steps? 
+For our next project we will make use of the [Raspberry Pi Camera Module 2](https://www.raspberrypi.com/products/camera-module-v2/), featuring a Sony 8-megapixel sensor. It is compatible with all versions of the Raspberry Pi.
 
-##### Final Project proposals
+* [Official Camera documentation](https://www.raspberrypi.com/documentation/accessories/camera.html)
+* Useful tutorial [Guide to Raspberry Pi Camera V2 Module](https://randomnerdtutorials.com/guide-to-raspberry-pi-camera-v2-module/) from "Random Nerd Tutorials"
 
-1. What is your project concept idea?
-2. Who is on your team?
-3. What resources will you be using?
-4. What are you having trouble with or need help with?
-5. What are you planning on doing next?
+Project examples/tutorials:
+* [Pi + Teachable Machine (machine learning to identify objects)](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera)
+* [Timelapse camera](https://learn.adafruit.com/pi-timelapse)
+* [Selfie bot with instant receipt printer](https://learn.adafruit.com/raspberry-pi-selfie-bot)
+* [Low light long exposure photography camera](https://learn.adafruit.com/raspberry-pi-hq-camera-low-light-long-exposure-photography)
 
-Your outcome will be due :
+Not exactly related but may be of use/interest:
+* Simple Raspberry Pi robot]([https://learn.adafruit.com/simple-raspberry-pi-robot)
 
-- a completed project.
-- project building tutorial
-- project manual (how to use it)
-- weekly logs of your activity and weekly photo documentation
+## Homework
 
+Form a team to work on this project.
 
+Review the documentation for the Raspberry Pi camera. View some example projects. Brainstorm a camera project.
+
+Acquire a Raspberry Pi camera and a USB battery pack to power your camera Pi project.
+
+Write down an idea for a camera project. Note any references, links, inspiration, etc.
+
+Bring to class with your parts.
