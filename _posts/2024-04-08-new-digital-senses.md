@@ -4,9 +4,14 @@ title: Class 10 - New Digital Senses
 ---
 
 This week:
+- palate cleanser
 - GPIO
 - Artists and the Pi: New Digital Senses
 - Intro to camera project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XmwA0YtA60E?si=WvIxwPmS7Hmf9ESt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+The 1-bit Art of Tristan Perich
 
 ## GPIO
 
@@ -117,7 +122,7 @@ Project examples/tutorials:
 * [Low light long exposure photography camera](https://learn.adafruit.com/raspberry-pi-hq-camera-low-light-long-exposure-photography)
 
 Not exactly related but may be of use/interest:
-* Simple Raspberry Pi robot]([https://learn.adafruit.com/simple-raspberry-pi-robot)
+* [Simple Raspberry Pi robot](https://learn.adafruit.com/simple-raspberry-pi-robot)
 
 ## Homework
 
