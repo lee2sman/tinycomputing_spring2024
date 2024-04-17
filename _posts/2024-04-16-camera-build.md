@@ -54,6 +54,10 @@ sudo apt install python3-picamera2
 
 3) Connect camera
 
+
+![insert camera]({{ site.baseurl }}/assets/img/insert-camera.gif)  
+*image from Leigh Johnson, Opensource.com, CC BY SA*
+
 Turn Pi off. Plug in cable in right orientation. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tHjwx2AQHxU?si=tR_dxbtVbekHOc1P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
