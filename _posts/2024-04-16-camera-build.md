@@ -43,7 +43,7 @@ Make sure you are running version 3. If not successful, you will need to run pyt
 Check to see if you have Picamera2 installed.
 
 ```
-python -c "import Picamera2"
+python -c "import picamera2"
 ```
 
 If not, install:
